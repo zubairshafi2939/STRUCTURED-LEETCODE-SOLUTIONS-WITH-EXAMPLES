@@ -11,5 +11,7 @@ while left<=right:
         left = mid + 1
     if nums[mid] > target:
         right = mid - 1
-print(left)
+print(left) # this is the result if target not in array
 print(right)
+print("new botton")
+print("new feature")
