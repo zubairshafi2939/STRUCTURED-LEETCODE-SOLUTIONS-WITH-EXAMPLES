@@ -1,0 +1,3 @@
+
+print(matrix)
+print(x)
