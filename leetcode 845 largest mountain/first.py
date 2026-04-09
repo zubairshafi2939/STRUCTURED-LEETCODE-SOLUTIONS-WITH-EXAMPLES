@@ -9,7 +9,7 @@ for x in range(1,len(arr)-1):
         l = r = x
         while l >=0 and arr[l] > arr[l-1]:
             l -= 1
-        while r <= len(arr)-1 and arr[r] > arr[r+1]:
+        while r <= len(arr)-1 and arr[r] > arr[r+1]:#basicaly there is an issue in the solvers code so i had to fix it on my own first on this line too. 
             r+=1
         
         rest = max(rest, r-l+1)
