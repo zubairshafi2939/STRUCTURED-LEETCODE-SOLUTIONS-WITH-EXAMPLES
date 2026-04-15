@@ -1,17 +1,8 @@
-haystack = "sadbutsad"
-needle = "sadi"
-
-for i in range(len(haystack)):
-    if haystack[i] == needle[0]:
-        temp = i
-        for x in range(len(needle)):
-            if temp >= len(haystack):
-                print("False")
-                break
-                # return -1
-            if haystack[temp] != needle[x]:
-                print(False)
-                break
-            else:
-                temp+=1
-print("True")
+nums = [0,1,2,2,3,0,4,2]
+val = 2
+left = 0
+for right in range(len(nums)):
+    if nums[right] != val:
+        nums[left] = nums[right]
+        left += 1
+print(nums)
