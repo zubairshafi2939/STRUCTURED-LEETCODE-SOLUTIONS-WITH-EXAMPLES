@@ -13,17 +13,21 @@ temp = temp.next
 temp.next = ListNode(9)
 
 head = head1
-thead = head
-while thead.next:
-    print(thead.val)
-    last = thead
-    thead  = thead.next
-thead.next = head
-head = thead
-last.next = None
-print("------------")
+n = 0
 while head:
-    print(head.val)
+    n+= 1
     head = head.next
+print(9%n)
+
+# for x in range(3):
+#     thead = head
+#     while thead.next:
+#         print(thead.val)
+#         last = thead
+#         thead  = thead.next
+#     thead.next = head
+#     head = thead
+#     last.next = None
+
 
 
