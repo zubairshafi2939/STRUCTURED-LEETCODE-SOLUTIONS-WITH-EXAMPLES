@@ -6,3 +6,8 @@ successfully submitted on leetcode
 SOLVED but with doubts:
 leetcode 32 longest valid prenthesis
 leetcode 322 coin change (dynamic programming)
+
+
+To do:
+implement stack using queue
+implement queue using stack

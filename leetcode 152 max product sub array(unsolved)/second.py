@@ -3,6 +3,7 @@ left = 0
 right = 0
 rest = 0
 result = 0
+ngrest = 0
 while right < len(nums):
     if left == right :
         if nums[left] <= 0:

@@ -1,0 +1,39 @@
+# Your solution works and is clean, but it's not truly optimal in terms of space. Here's the breakdown:
+# Your solution — O(m) space
+
+# You created temp = nums1[0:m] which is an extra array
+# That's why it beats 100% in time (linear O(m+n)) but uses extra space
+
+# The actual optimal — O(1) space
+
+# Fill from the end instead of the beginning
+# No extra array needed
+
+# pythonclass Solution(object):
+#     def merge(self, nums1, m, nums2, n):
+#         i = m - 1      # pointer for nums1
+#         x = n - 1      # pointer for nums2
+#         index = m + n - 1  # pointer for end of nums1
+
+#         while i >= 0 and x >= 0:
+#             if nums1[i] > nums2[x]:
+#                 nums1[index] = nums1[i]
+#                 i -= 1
+#             else:
+#                 nums1[index] = nums2[x]
+#                 x -= 1
+#             index -= 1
+
+#         # if nums2 still has elements left
+#         while x >= 0:
+#             nums1[index] = nums2[x]
+#             x -= 1
+#             index -= 1
+# Why fill from the end?
+
+# nums1 already has empty slots at the end
+# So we can place the largest elements there directly
+# No need to copy anything into a temp array
+
+# Your SolutionOptimalTimeO(m+n) ✅O(m+n) ✅SpaceO(m) ❌O(1) ✅
+# So your solution is time optimal but the fill-from-end approach is fully optimal (both time and space).

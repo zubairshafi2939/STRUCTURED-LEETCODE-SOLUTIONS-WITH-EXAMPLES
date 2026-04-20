@@ -1,6 +1,4 @@
-s =  "0"
-if s[0].isdigit():
-    print(True)
+
 # rest = ""
 # fest = ""
 # for x in s:

@@ -1,0 +1,22 @@
+done by my own. in 2 to 3 days by just thinking about. it and done in 16 ms
+now want to do in optimal. without watching a single tutorial
+Approach
+efficiency
+Efficiency
+codeStyle
+Code Style
+Congratulations! You passed on this attempt, building on your prior experience with similar problems. Your persistence is paying off!
+approach
+Approach
+Current:
+Dynamic Programming
+/
+Array
+Suggested:
+Dynamic Programming
+/
+Array
+Key Idea:
+Track both maximum and minimum products ending at each position to handle negative numbers effectively.
+Consider:
+Can you refactor this to track max and min simultaneously without so many flags and special cases?

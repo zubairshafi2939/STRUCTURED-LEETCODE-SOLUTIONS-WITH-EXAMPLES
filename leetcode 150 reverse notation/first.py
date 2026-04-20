@@ -11,9 +11,11 @@ for x in tokens:
         if x == "+":
             sum = (b + a)
             stk.append(sum)
+        # elif x == "/": mine code issue
+        #     sum = b / a
+        #     stk.append(int(sum))
         elif x == "/":
-            sum = b / a
-            stk.append(int(sum))
+                    stk.append(int(float(b) / a))
         elif x == "*":
             sum = b * a
             stk.append(sum)
