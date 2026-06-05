@@ -1,2 +1,2 @@
-        print("True for n")
-                return True
+backtrack(0,p,result)
+print(result)

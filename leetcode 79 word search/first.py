@@ -1,8 +1,8 @@
 board = [
-["A","C","C","E"],
-["S","C","D","D"],
-["A","D","E",""]]
-word = "ACCDC"
+["M","U","C","E"],
+["A","H","D","D"],
+["M","A","D","Z"]]
+word = "MUHAMAD"
 i , j = 0,0
 t = 0
 def backtrack(x,y,t,L = []):

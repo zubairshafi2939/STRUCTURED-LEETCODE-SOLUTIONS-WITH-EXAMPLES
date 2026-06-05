@@ -16,7 +16,7 @@ def backtrack(x,l):
             if l[tx][t] == "Q":
                 switch = False
                 break
-            tx -= 1
+            tx += 1
             t -= 1
         tx = x
         t = i
