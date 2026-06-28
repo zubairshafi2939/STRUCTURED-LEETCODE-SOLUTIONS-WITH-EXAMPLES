@@ -1,5 +1,5 @@
 nums = [2,3,5,7]
-target = 0
+target = 3
 left = 0
 right = len(nums) - 1
 while left<=right:
