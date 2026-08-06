@@ -1,0 +1,1 @@
+# have to redoe . understanded and then solved after 3 hours . without watching any thing. [at first i watched]

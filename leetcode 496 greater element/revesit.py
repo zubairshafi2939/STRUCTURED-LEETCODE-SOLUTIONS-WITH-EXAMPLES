@@ -1,0 +1,1 @@
+# forth.py is the revesit. couldn't solve so revesit me b dobara dekh ke halka sa kar rhaa hun

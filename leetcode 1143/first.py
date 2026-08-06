@@ -7,11 +7,10 @@ else:
     small = text2
     large = text1
 index = 0
+data = set(small)
 rest = []
-for x in small:
-    for y in range(len(large)):
-        if large[y] == x:
-            rest.append(y)
-            break
+for x in large:
+    if x in data:
+        rest.append(x)
 print(rest)
 
