@@ -1,0 +1,1 @@
+data.get(nums[r],0)+1
